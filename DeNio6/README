@@ -1,0 +1,75 @@
+File:    README
+Author:  Joshua DeNio
+Program: 6
+Date:  3/19/2018 
+
+BUILDING THE PROGRAM
+   This program was written in C++ and distributed to be built on a 
+   Linux system.  To build the program, type 'make' to create the 
+   executable called 'prog6'
+
+RUNNING THE PROGRAM
+   Type 'prog6' at the command prompt after building the program.
+
+PROGRAM DESCRIPTION
+   This program will read test scores from the input file, output them to an output file after sorting
+   them and assigning them to letter grades. It will also output a summary file. 
+
+PROGRAM INPUT
+   All input comes from the input file testscores.
+   
+PROGRAM OUTPUT
+   The program will output The test scores along with thier corisponding 
+   letter grade to the output file testresults and the summary information about the average
+   score and deviation to the testsummary file.
+
+PROGRAM DESIGN
+   This program stores all the ints in an array.
+   as well as names in another array.
+
+   The general algorithm
+      read the ints into an array
+      read the names into an array
+      output the arrays
+      sort the arrays
+      output the arrays
+      output the results to the output files
+
+   Function input and output, preconditions and postconditions can
+   be found in the documentation for each file.
+
+FILE INDEX
+   file            	 function(s)        description
+   --------------   	-----------------  ----------------------
+   constants.h       	                  constant declarations
+   
+   main.cpp         	main               calls all other functions
+   
+   deviation.cpp	finds the diviation
+   
+   median.cpp		finds the median
+   
+   outputSummary.cpp       output             outputs results to testsummary
+
+   outputScores.cpp       output             outputs results to testresults
+   
+   read.cpp         	read               read from the input file
+
+   sort.cpp         	sort               sorts the arrays ascendingly
+
+   makefile             	               builds executable
+
+   README              	                this file
+
+
+PROGRAM TESTING
+   This program was tested with different sets of data.  
+
+   Checked for a normal set of data partially filling the array
+   
+   Checked for the number of values exceeding the array size
+   
+
+   There are no known bugs.  Any errors should be reported to:
+   Joshua DeNio
+

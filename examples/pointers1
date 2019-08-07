@@ -1,0 +1,8 @@
+#include <iostream>
+int main(){
+
+int score = 98;
+double height = 3.4;
+std::cout << &score << std::endl;
+std::cout << &hehight << std::endl;
+}

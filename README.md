@@ -1,2 +1,2 @@
-# C-_projects
+# 252_projects
 C++ projects
